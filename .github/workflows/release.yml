@@ -1,6 +1,6 @@
 name: Compile Release
 on: workflow_dispatch  # Allows manual triggering
-  push:
+ push:
     tags:
       - '*'
 
